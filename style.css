@@ -638,6 +638,15 @@ header {
 	#gameRule{
 		bottom: 80px;
 		right: 40px;
+		/* overflow: hidden; */
+		width: 280px;
+		height: 300px;
+	}
+	#gameRule li{
+		font-size: 12px;
+	}
+	#gameRule h1{
+		font-size: 25px;
 	}
 }
 
