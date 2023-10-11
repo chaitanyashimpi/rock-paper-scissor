@@ -163,6 +163,7 @@ header {
 	bottom: 120px;
 	border: 7px solid #fff;
 	border-radius: 13px;
+	z-index : 1000;
 }
 #gameRule h1 {
 	font-size: 29px;
@@ -633,6 +634,10 @@ header {
 		width: 300px;
 		text-align: center;
 		top: -40px;
+	}
+	#gameRule{
+		bottom: 80px;
+		right: 40px;
 	}
 }
 
