@@ -493,6 +493,9 @@ header {
 	}
 	.title{
 		font-size: 15px;
+		letter-spacing: inherit;
+		min-width: 300px;
+		/* background-color: gray; */
 	}
 	.scoreBox {
 		width: 100px;
@@ -637,16 +640,17 @@ header {
 
 .winning {
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-.winning .title {
-	margin-bottom: -30px;
+.winning .winningTitle {
+	margin-bottom: 10px;
 	margin-top: 30px;
 	text-transform: uppercase;
+	color: #fff;
 }
 .winning .info {
 	color: #fff;
@@ -664,7 +668,6 @@ header {
 .trophy .trophySVG {
 	position: absolute;
 	bottom: 0;
-	/* right: 0; */
 }
 /* stars */
 .star1,
