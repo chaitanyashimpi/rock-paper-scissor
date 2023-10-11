@@ -677,29 +677,29 @@ header {
 	width: 20px;
 	top: 25%;
 	left: 10%;
-	animation: starTwinkle 0.4s ease-in-out alternate-reverse infinite;
+	animation: starTwinkle 0.6s ease-in-out alternate-reverse infinite;
 }
 .star3 {
 	width: 50px;
 	top: 10%;
 	left: 20%;
-	animation: starTwinkle 0.4s ease-in-out alternate-reverse infinite;
+	animation: starTwinkle 0.8s ease-in-out alternate-reverse infinite;
 }
 .star4 {
 	width: 80px;
 	top: 10%;
 	right: 20%;
-	animation: starTwinkle 0.4s ease-in-out alternate-reverse infinite;
+	animation: starTwinkle 0.6s ease-in-out alternate-reverse infinite;
 }
 .star5 {
 	top: 40%;
 	left: 5%;
-	animation: starTwinkle 0.4s ease-in-out alternate-reverse infinite;
+	animation: starTwinkle 0.8s ease-in-out alternate-reverse infinite;
 }
 .star6 {
 	top: 50%;
 	right: 10%;
-	animation: starTwinkle 0.4s ease-in-out alternate-reverse infinite;
+	animation: starTwinkle 1s ease-in-out alternate-reverse infinite;
 }
 .star7 {
 	width: 30px;
@@ -711,7 +711,7 @@ header {
 	width: 40px;
 	bottom: 10%;
 	left: 25%;
-	animation: starTwinkle 0.4s ease-in-out alternate-reverse infinite;
+	animation: starTwinkle 0.6s ease-in-out alternate-reverse infinite;
 }
 
 @keyframes starTwinkle {
